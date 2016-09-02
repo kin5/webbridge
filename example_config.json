@@ -1,5 +1,5 @@
 {
-    "title": "Example",
-    "cmd": "execute_cmd path/to/file",
+    "title": "The Title of Your Application",
+    "cmd": "cmd_to_execute_for_server path/to/file",
     "url": "http://127.0.0.1:5000"
 }
