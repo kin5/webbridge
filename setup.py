@@ -9,5 +9,6 @@ setup(
     author_email="kinmancovey@yahoo.com",
     url="https://github.com/KinmanCovey/webbridge",
     download_url="https://github.com/KinmanCovey/webbridge/archive/master.zip",
-    keywords=["bridge", "html", "gui", "web", "app"]
+    keywords=["bridge", "html", "gui", "web", "app"],
+    install_requires=["pywebview"]
 )
