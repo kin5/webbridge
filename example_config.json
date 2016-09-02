@@ -1,0 +1,5 @@
+{
+    "title": "Example",
+    "cmd": "execute_cmd path/to/file",
+    "url": "http://127.0.0.1:5000"
+}
