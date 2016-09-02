@@ -22,9 +22,10 @@ You need to create a proper `config.json` for the project. Check out the `exampl
 This config file should live in the same directory as your main file (the file that acts as your main execution point).
 
 ## Second
-**coming soon, i promise**
+*coming soon, i promise*
 
 #  changelog
 ## 0.1
 **9/2/2016**
+
 Widely untested, hardly proven, and pretty wild
