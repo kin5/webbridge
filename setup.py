@@ -8,6 +8,6 @@ setup(
     author="Kinman Covey",
     author_email="kinmancovey@yahoo.com",
     url="https://github.com/KinmanCovey/webbridge",
-    download_url="https://github.com/KinmanCovey/webbridge/tarball/0.1",
+    download_url="https://github.com/KinmanCovey/webbridge/archive/master.zip",
     keywords=["bridge", "html", "gui", "web", "app"]
 )
