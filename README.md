@@ -9,10 +9,10 @@ or if you don't enjoy the ease of pip, download the source and run
 `python setup.py install`
 
 # dependencies
-The only hard dependency is [pywebview](https://github.com/r0x0r/pywebview) which this package is made to compliment. Without that, this package is basically nothing (in fact, it won't work at all).
+The only hard dependency is [pywebview](https://github.com/r0x0r/pywebview) which this package is made to *compliment* (not replace).
 
 # basic usage
-If pywebview is your 4k TV, and your web applications is the cable box, webbridge is that nice, standardized HDMI cable that allows them to play nicely together.
+If pywebview is your 4k TV, and the web application is your cable box, webbridge is that nice, standardized HDMI cable that allows them to play nicely together. It could also be considered your nice, oak entertainment center that keeps your expensive TV from crushing your cable box, but I digress.
 
 Think of it as a bridge between your web app and the webview window.
 
@@ -60,7 +60,7 @@ For extra special functionality, functions can be assigned to one of 7 *hooks*:
 There is one hook still under construction (and by that I mean I'm waiting until I'm smart enough to implement it):
 * before_client_close
 
-Assigning a function to a hook requires you to use the `hook` decorator method found within your `bridge` instance.
+Assigning a function to a hook requires you to use the `hook` decorator method found within your `Bridge` instance.
 
 For a simple example, let's say we want to print a message before and after the server starts. This recipe calls for two decorated functions. We can expand on our above example, easily extending it to perform these actions:
 
@@ -118,7 +118,7 @@ if __name__ == "__main__":
   app.run()
 ```
 
-I'd wager that tearing down your Windows application has never been simpler.
+I'd wager that tearing down your win32gui application has never been simpler.
 
 # finally
 Provide some feedback if you're interested in helping out. I'm always open to criticism and contribution.
