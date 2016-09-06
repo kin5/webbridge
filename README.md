@@ -43,9 +43,6 @@ And that's it. All the specifics have already been defined by you in the config 
 
 Unless of course it *doesn't work*, which in that case you should head on over to the issues section and let me know.
 
-## finally
-Provide some feedback if you're interested in helping out. I'm always open to criticism and contribution.
-
 # advanced usage
 
 Despite this applicaton not being very advanced, it has some nifty features for you to take advantage of.
@@ -113,8 +110,8 @@ def index():
 
 @app.route("/blow")
 def blow_it():
-  # This route immediately calls our blow function which sends
-  # the quit message to our application.
+  # This route immediately calls the blow function which sends
+  # a quit message to our application.
   blow()
 
 if __name__ == "__main__":
@@ -122,6 +119,9 @@ if __name__ == "__main__":
 ```
 
 I'd wager that tearing down your Windows application has never been simpler.
+
+# finally
+Provide some feedback if you're interested in helping out. I'm always open to criticism and contribution.
 
 #  changelog
 ## 0.1
