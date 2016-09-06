@@ -48,6 +48,8 @@ Provide some feedback if you're interested in helping out. I'm always open to cr
 
 # advanced usage
 
+Despite this applicaton not being very advanced, it has some nifty features for you to take advantage of.
+
 ## hooks
 For extra special functionality, functions can be assigned to one of 7 *hooks*:
 * before_server_start
