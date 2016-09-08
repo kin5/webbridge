@@ -26,6 +26,8 @@ Keys:
 * **cmd**: The command to execute if running a server in the background for your web app (i.e. Flask, Node, etc.)
 * **url**: The URL for webview to navigate its browser to
 
+In the future, this file will boast attributes for extension and customization, but I'm sticking with the bare necessities for now.
+
 ## second
 Now that the config file exists, let's create our main file. Create a file called `main.py`. In that file, type the following:
 
@@ -87,7 +89,7 @@ And just like that we have functions executing all over the place.
 ## blow
 This function is a bit of a doozy, and currently only works on Windows. It will literally blow the Bridge (Get it? Guys?).
 
-Bad jokes aside, this function is a remnant of my attempt at forking pywebview to implement borderless window functionality (speaking specifically for Windows). The function posts a quit message (WM_DESTROY) to the window boasting the title supplied in your config.json. It's not bullet proof, so I'll be working on improving it down the road. Currently, pywebview doesn't support borderless application windows. This function came in handy when the application had no border as it also had no exit button. I *desperately* want this borderless functionality to exist down the road, as the possibility for beatuiful, border-free applications is just too great to pass up (Yes, I'm drooling). Since I'm holding out for its existence, I'm leaving this function in for that wonderful day.
+Bad jokes aside, this function is a remnant of my attempt at forking pywebview to implement borderless window functionality (specifically for Windows). The function posts a quit message (WM_DESTROY) to the window boasting the title supplied in your config.json. It's not bullet proof, so I'll be working on improving it down the road. Currently, pywebview doesn't support borderless application windows. This function came in handy when the application had no border as it also had no exit button. I *desperately* want this borderless functionality to exist down the road, as the possibility for beatuiful, border-free applications is just too great to pass up (Yes, I'm drooling). Since I'm holding out for its existence, I'm leaving this function in for that glorious day.
 
 This function may come in handy even with bordered applications, but a realistic use case has yet to be proven on my end. I haven't tested it with other web architectures (basically anything != Python), but I would love to know if its use is available/helpful in them.
 
