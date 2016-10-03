@@ -93,7 +93,7 @@ Bad jokes aside, this function is a remnant of my attempt at forking pywebview t
 
 This function may come in handy even with bordered applications, but a realistic use case has yet to be proven on my end. I haven't tested it with other web architectures (basically anything != Python), but I would love to know if its use is available/helpful in them.
 
-It's usage is simple:
+Its usage is simple:
 
 ```python
 # Within your Python web application (not your main entry point file), you can blow the Bridge application
