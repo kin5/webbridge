@@ -12,7 +12,7 @@ or if you don't enjoy the ease of pip, download the source and run
 The only hard dependency is [pywebview](https://github.com/r0x0r/pywebview) which this package is made to *compliment* (not replace).
 
 # basic usage
-If pywebview is your 4k TV, and the web application is your cable box, webbridge is that nice, standardized HDMI cable that allows them to play nicely together. It could also be considered your nice, oak entertainment center that keeps your expensive TV from crushing your cable box, but I digress.
+If pywebview is your big HD TV, and the web application is your cable box, webbridge is that nice, standardized HDMI cable that allows them to play nicely together. It could also be considered your nice, oak entertainment center that keeps your expensive TV from crushing your cable box, but I digress.
 
 Think of it as a bridge between your web app and the webview window.
 
